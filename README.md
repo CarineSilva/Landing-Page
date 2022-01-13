@@ -1,2 +1,2 @@
 # Landing-Page
-Landing Page Responsiva com barra de navegação responsiva desenvolvida com HTML e CSS.
+Landing Page Responsiva com barra de navegação desenvolvida com HTML e CSS.

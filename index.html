@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="cinema_movie_film_automatic_robot_icon_209542.svg" type="image/x-icon">
+    <title>Responsive Landing Page with Nav Menu</title>
+</head>
+<body>
+    <header>
+        <h1> CS Technology</h1>
+
+        <section class="Menu">
+            <ul class="menu-list">
+                <li>Home</li>
+                <li class="active">Products</li>
+                <li>About Us</li>
+                <li>Contact</li>
+            </ul>
+        </section>
+
+    </header>
+
+        <section class="main">
+
+            <section class="left">
+                <p class="title">Information Technology</p>
+                <p class="msg">CS Tecnologia offers the best solutions in information technology with a specialized focus on Corporate IT Support services, Consulting for Protheus and RM.</p>
+                <button class="cta">Learn More</button>
+            </section>
+
+            <section class="right">
+                <img src="img.svg" alt="Landing Imagen">
+            </section>
+        </section>
+
+        <script>
+            var menu = document.querySelector('.menu');
+            var menuBtn = document.querySelector('menu button');
+            menuBtn.addEventListener('click',() => {
+                menu.classList.toggle('opened')
+            })
+        </script>
+    
+    
+    
+</body>
+</html>
